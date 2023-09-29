@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple TV 4K</title>
+    <!-- FAVICON ICON -->
+    <link rel="icon" type="image/x-icon" href="icon/favicon.png">
+    <!-- EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MAIN NAVIGATION MENU -->
+    <nav>
+        <div class="nav-container">
+           <ul>
+              <li class="logo">
+                 <a href="#">
+                    <svg class="svg-nav" height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg">
+                       <path d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z"></path>
+                    </svg>
+                 </a>
+              </li>
+              <ul>
+                 <li class="hide-nav-m"><a href="#">Store</a></li>
+                 <li class="hide-nav-m"><a href="#">Mac</a></li>
+                 <li class="hide-nav-m"><a href="#">iPad</a></li>
+                 <li class="hide-nav-m"><a href="#">iPhone</a></li>
+                 <li class="hide-nav-m"><a href="#">Watch</a></li>
+                 <li class="hide-nav-m"><a href="#">Vision</a></li>
+                 <li class="hide-nav-m"><a href="#">AirPods</a></li>
+                 <li class="hide-nav-m"><a href="#">TV & Home</a></li>
+                 <li class="hide-nav-m"><a href="#">Entertainment</a></li>
+                 <li class="hide-nav-m"><a href="#">Accessories</a></li>
+                 <li class="hide-nav-m"><a href="#">Support</a></li>
+              </ul>
+              <ul>
+                 <li>
+                    <a href="#">
+                       <svg class="svg-nav" xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                          <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
+                       </svg>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#">
+                       <svg class="svg-nav" height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                          <path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path>
+                       </svg>
+                    </a>
+                 </li>
+                 <li class="hamburger">
+                    <a href="#">
+                       <svg class="svg-nav" width="18" height="18" viewBox="0 0 18 18">
+                          <polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom">
+                             <animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate>
+                             <animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate>
+                          </polyline>
+                          <polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top">
+                             <animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate>
+                             <animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate>
+                          </polyline>
+                       </svg>
+                    </a>
+                 </li>
+              </ul>
+           </ul>
+        </div>
+     </nav>
+
+
+
+
+     <!-- STICKY NAVIGATION MENU -->
+     <div class="sticky-nav-container" id="sticky-nav">
+        <div class="sticky-nav">
+           <div class="left-nav-heading">
+              <h4>Apple TV 4K</h4>
+           </div>
+           <div class="right-nav-items">
+              <span>
+              <a class="current" href="#">Overview</a>
+              <a href="#">Tech Specs</a>
+              <button>Buy</button>
+              </span>
+           </div>
+        </div>
+     </div>
+
+
+
+
+     <!-- PARALLAX HERO SECTION  -->
+     <section class="hero">
+        <div class="hero-video-container">
+           <div class="hero-video-content" id="hero-title">
+              <img class="tv-logo" id="22" src="imgs/apple_tv_4k_logo.png" alt="">
+              <h1 class="hero-title">The ultimate</br>
+                 TV experience is calling.
+              </h1>
+              <p class="hero-text">TV+ | Foundation</p>
+           </div>
+        </div>
+        <div class="hero-section">
+           <div class="hero-container" id="he-vi">
+              <div class="hero-video" >
+                 <div class="tv">
+                    <video autoplay loop muted id="hero-vid-2">
+                       <source src="Video/hero-bg.mp4" type="video/mp4">
+                       Your browser does not support the video tag.
+                    </video>
+                    <img src="imgs/hero-tv-bg.jpg"/>
+                 </div>
+              </div>
+              <div class="shadow">
+                 <img src="imgs/tv-shadow.png">
+              </div>
+              <div class="tv-remote">
+                 <img src="imgs/hero_tv_remote.png">
+              </div>
+           </div>
+           <div class="hero-typo" id="hero-typo">
+              <p>Apple TV 4K unites your favorite Apple services with all your 
+                 streaming apps in our best-ever picture and sound quality — 
+                 thanks to the blazing‑fast A15 Bionic chip. Enjoy a new FaceTime 
+                 experience on TV  that brings your friends and family into your 
+                 living room — and onto the biggest screen in your home. 
+                 And with seamless interaction with all your devices and smart 
+                 home accessories, it’s everything you love about Apple — at 
+                 its cinematic best.
+              </p>
+              <p>Starting at $129</p>
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+    <!-- PARALLAX EXPERIENCE SECTION  -->
+     <section class="Experience">
+        <div class="exp-titles">
+           <h2>Experience</h2>
+           <h3>Channeling the best of TV.
+              And the best of Apple.
+           </h3>
+           <p>Discover award-winning Apple Originals series and films — with 
+              other favorites on Disney+, Prime Video, Netflix, Max, ESPN, 
+              and more. Experience world‑class workouts, superfun games, and 
+              exciting ways to enjoy hit music you’ll find only from Apple. 
+              And explore thousands of other top apps in the App Store. There’s 
+              more on Apple TV 4K than just TV.
+           </p>
+        </div>
+        <div class="gallery">
+           <div class="gall gall-1" id="gallary-1">
+              <img src="imgs/river_lamar.jpg">
+              <img src="imgs/river_fitness.jpg">
+              <img src="imgs/river_futurama.jpg">
+              <img src="imgs/river_foundation.jpg">
+              <img src="imgs/righteous_gemstones.jpg">
+              <img src="imgs/angry-birds.jpg">
+              <img src="imgs/gremlins.jpg">
+           </div>
+           <div class="gall gall-2" id="gallary-2">
+              <img src="imgs/river_lizzo.jpg">
+              <img src="imgs/star-wars.jpg">
+              <img src="imgs/the_morning_show.jpg">
+              <img src="imgs/river_doja.jpg">
+              <img src="imgs/subway.jpg">
+              <img src="imgs/river_fitness-02.jpg">
+              <img src="imgs/river_styles.jpg">
+           </div>
+           <div class="gall gall-3" id="gallary-3">
+              <img src="imgs/river_fitness-04.jpg">
+              <img src="imgs/river_hijack.jpg">
+              <img src="imgs/spiderman.jpg">
+              <img src="imgs/gear-club.jpg">
+              <img src="imgs/river_lasso.jpg">
+              <img src="imgs/river_harlow.jpg">
+              <img src="imgs/prehistoric_planet.jpg">
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+     <!-- PARALLAX STICKY VIDEO SECTION -->
+     <section class="parallax-video-section">
+        <div class="parallax-container">
+           <div class="parallax-video" id="video0">
+              <img src="imgs/screen_tv_app.jpg" id="vid-image">
+           </div>
+           <div id="scrl-0">
+              <div class="parallax-video" id="video1">
+                 <video autoplay loop muted id="vid-1">
+                    <source src="Video/tv-plus.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                 </video>
+              </div>
+           </div>
+           <div id="scrl-1">
+              <div class="parallax-video" id="video2">
+                 <video autoplay loop muted id="vid-2">
+                    <source src="Video/fitness.mp4" type="video/mp4" height="200px">
+                    Your browser does not support the video tag.
+                 </video>
+              </div>
+           </div>
+           <div id="scrl-2">
+              <div class="parallax-video" id="video3">
+                 <video autoplay loop muted id="vid-3">
+                    <source src="Video/music.mp4" type="video/mp4" height="200px">
+                    Your browser does not support the video tag.
+                 </video>
+              </div>
+           </div>
+           <div id="scrl-3">
+              <div class="parallax-video" id="video4">
+                 <video autoplay loop muted id="vid-4">
+                    <source src="Video/arcade.mp4" type="video/mp4" height="200px">
+                    Your browser does not support the video tag.
+                 </video>
+              </div>
+           </div>
+           <div id="scrl-4">
+              <div class="parallax-video" id="video5">
+                 <img src="imgs/screen_tv_app-1.jpg" id="vid-image-1">
+              </div>
+           </div>
+        </div>
+        <div class="content-1">
+           <div class="div-logo-text">
+              <div class="left">
+                 <img src="imgs/apple_tv_logo.png">
+                 <p><span class="black">Apple TV app.</span> Watch, rent, or buy your favorite shows 
+                    and movies all in one expertly curated app. Enjoy 
+                    critically acclaimed Apple Originals series and films 
+                    from Apple TV+ as they were meant to be seen. 
+                    Subscribe to just the channels you want. And there 
+                    are no new apps, accounts, or passwords needed for 
+                    up to six family members.
+                 </p>
+                 <p><span class="black">Live TV.</span> Apple TV 4K is all you need to stream live TV 
+                    from the world’s biggest and best networks, broadcasters, 
+                    and pay TV providers. Watch sports from ESPN and MLB.
+                    Catch up with news from ABC, CNN, and Bloomberg. And 
+                    kick back with shows on Hulu, YouTube TV, and Sling TV.
+                 </p>
+                 <img class="tv-plus-logo" src="imgs/apple_tv_plus_logo.png">
+                 <p><span class="black">Apple TV+.</span> Watch series, feature films, kids’ 
+                    entertainment, and more from the most creative 
+                    minds in TV and movies — with new Apple Originals 
+                    added every month.
+                 </p>
+                 <a href="#">Learn more</a>
+              </div>
+              <div class="right"></div>
+           </div>
+        </div>
+        <div class="content-2">
+           <div class="div-2-logo-text">
+              <div class="left left-two">
+                 <img src="imgs/apple_fitness-logo.png">
+                 <p><span class="white">Apple Fitness+.</span> Tap into the
+                    world’s largest library of 4K fitness and wellness 
+                    content. From HIIT to Yoga, there’s something for 
+                    everyone. Get custom workout and meditation plans
+                    automatically built for you. And supercharge your 
+                    experience with real-time, personalized metrics 
+                    from Apple Watch.
+                 </p>
+                 <a href="#">Learn more</a>
+                 <span class="right-arrow">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.74 32.22">
+                       <defs>
+                          <style>.cls-1 {fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6px;}</style>
+                       </defs>
+                       <g id="Layer_1-2" data-name="Layer 1">
+                          <polyline class="cls-1" points="1.5 1.5 8.37 8.8 15.24 16.11 8.37 23.41 1.5 30.72"/>
+                       </g>
+                    </svg>
+                 </span>
+                 <a href="#">Try it free</a>
+                 <span class="right-arrow">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.74 32.22">
+                       <defs>
+                          <style>.cls-2 {fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6px;}</style>
+                       </defs>
+                       <g id="Layer_1-2" data-name="Layer 1">
+                          <polyline class="cls-2" points="1.5 1.5 8.37 8.8 15.24 16.11 8.37 23.41 1.5 30.72"/>
+                       </g>
+                    </svg>
+                 </span>
+              </div>
+              <div class="right"></div>
+           </div>
+        </div>
+        <div class="content-3">
+           <div class="div-2-logo-text">
+              <div class="left left-three">
+                 <img src="imgs/apple_music.png">
+                 <p><span class="white">Apple Music.</span> Listen to over 100 million 
+                    songs, 30,000 playlists, and live radio on the big screen. 
+                    You can even be your own video star with Apple Music Sing5 — sing 
+                    top songs with real-time lyrics and adjustable vocals that let 
+                    you take the lead, duet with the artist, or belt out backup 
+                    harmonies.
+                 </p>
+                 <a href="#">Learn more</a>
+                 <span class="right-arrow">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.74 32.22">
+                       <defs>
+                          <style>.cls-3 {fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6px;}</style>
+                       </defs>
+                       <g id="Layer_1-2" data-name="Layer 1">
+                          <polyline class="cls-3" points="1.5 1.5 8.37 8.8 15.24 16.11 8.37 23.41 1.5 30.72"/>
+                       </g>
+                    </svg>
+                 </span>
+              </div>
+              <div class="right"></div>
+           </div>
+        </div>
+        <div class="content-4">
+           <div class="div-2-logo-text">
+              <div class="left left-four">
+                 <img src="imgs/apple_arcade_app.png">
+                 <p><span class="white">Apple Arcade.</span> Playing Apple Arcade games is even 
+                    more immersive on your big screen. Multiuser support helps players keep 
+                    track of their individual game levels, leaderboards, and invitations — and 
+                    switch between players at any time. And you can connect more of your 
+                    favorite controllers to Apple TV 4K, including PlayStation and Xbox 
+                    Wireless controllers.
+                 </p>
+                 <a href="#">Learn more</a>
+                 <span class="right-arrow">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.74 32.22">
+                       <defs>
+                          <style>.cls-4 {fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6px;}</style>
+                       </defs>
+                       <g id="Layer_1-2" data-name="Layer 1">
+                          <polyline class="cls-4" points="1.5 1.5 8.37 8.8 15.24 16.11 8.37 23.41 1.5 30.72"/>
+                       </g>
+                    </svg>
+                 </span>
+              </div>
+              <div class="right"></div>
+           </div>
+        </div>
+        <div class="content-5">
+           <div class="div-2-logo-text">
+              <div class="left left-five">
+                 <img src="imgs/photos_app.png">
+                 <p><span class="black">Photos.</span>iCloud Shared Photo Library makes it 
+                    easier than ever for the whole family to enjoy each other’s photos, and 
+                    you can see them all right on your TV. And now you can choose Memories 
+                    as your screen saver, and watch your special moments come alive on the 
+                    big screen.
+                 </p>
+                 <a href="#">Learn more</a>
+                 <span class="right-arrow">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.74 32.22">
+                       <defs>
+                          <style>.cls-5 {fill: none;stroke: #0071e3;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6px;}</style>
+                       </defs>
+                       <g id="Layer_1-2" data-name="Layer 1">
+                          <polyline class="cls-5" points="1.5 1.5 8.37 8.8 15.24 16.11 8.37 23.41 1.5 30.72"/>
+                       </g>
+                    </svg>
+                 </span>
+              </div>
+              <div class="right"></div>
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+     <!-- REGULAR FACETIME SECTION -->
+     <section class="facetime">
+        <div class="facetime-container">
+           <div class="face-text-top">
+              <span>New</span>
+              <h3>FaceTime gets the big‑screen treatment.</h3>
+           </div>
+           <div class="face-image">
+              <img src="imgs/facetime.jpg">
+           </div>
+           <div class="face-text-bottom">
+              <p><span class="black">The new FaceTime app</span> on Apple TV 4K seamlessly connects to 
+                 your iPhone or iPad to deliver your audio and video to the 
+                 big screen through Continuity Camera.7 So now sharing 
+                 special moments together with friends is easier, bigger, 
+                 and better than ever.
+              </p>
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+     <!-- PARALLAX FIXED BACKGROUND VIDEO SECTION -->
+     <section class="background-video">
+        <video autoplay loop muted id="bg-vid">
+           <source src="Video/dolby.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+        </video>
+        <div class="bg-vid-content">
+           <h2>Cinematic experience</h2>
+           <h3>True-to-life picture.
+              Unreal sound.
+           </h3>
+           <p>4K picture. Eye-popping details leap out of the darkest 
+              shadows and <br>brightest highlights with advanced HDR formats 
+              like Dolby Vision — <br>and HDR10+.8 So everything you watch 
+              is worthy of your<br> biggest screen.
+           </p>
+           <div class="two-logo">
+              <img src="imgs/logo_dolby_vision.png">
+              <img src="imgs/logo_hdr.png">
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+     <!-- FOOTER SECTION -->
+     <footer>
+        <div id="footer-links">
+           <div id="block-1">
+              <h2>Apple TV 4K</h2>
+              <p>Available on Apple TV 4K (2nd generation and later) running the latest 
+               operating system software. <a href="#">See More</a></p>
+               <p class="note">*Listed pricing is Maximum Retail Price (inclusive of all taxes).</p>
+               <p class="padding-bottom">1. Available on Apple TV 4K (2nd generation and later) 
+                  running the latest operating system software.<br><br>2. Requires a HomeKit‑ or 
+                  Matter-enabled accessory. Smart home accessory is sold separately.</p>
+           </div>
+           <div id="block-2">
+              <h3>Links</h3>
+              <ul>
+                 <li><a href="#">Find a Store</a></li>
+                 <li><a href="#">Today at Apple</a></li>
+                 <li><a href="#">Apple Store App</a></li>
+                 <li><a href="#">Certified Refurbished</a></li>
+                 <li><a href="#">Apple Trade In</a></li>
+              </ul>
+              <h3>Entertainment</h3>
+              <ul>
+                 <li><a href="#">Apple One</a></li>
+                 <li><a href="#">Apple TV+</a></li>
+                 <li><a href="#">Apple Music</a></li>
+                 <li><a href="#">Apple Arcade</a></li>
+                 <li><a href="#">Apple Podcasts</a></li>
+              </ul>
+           </div>
+           <div id="block-3">
+              <ul>
+                 <h3>Customer Service</h3>
+                 <li><a href="#">Apple in Healthcare</a></li>
+                 <li><a href="#">Apple and Business</a></li>
+                 <li><a href="#">Shop for Business</a></li>
+                 <li><a href="#">Health Records on iPhone</a></li>
+                 <li><a href="#">Guarantees & Warranties</a></li>
+              </ul>
+              <ul>
+               <h3>Account</h3>
+               <li><a href="#">Manage Your Apple ID</a></li>
+               <li><a href="#">Apple Store Account</a></li>
+               <li><a href="#">iCloud.com</a></li>
+               <li><a href="#">Environment</a></li>
+            </ul>
+           </div>
+           <div id="block-4">
+              <ul>
+                 <h3>About Us</h3>
+                 <li><a href="#">Apple Leadership</a></li>
+                 <li><a href="#">Newsroom</a></li>
+                 <li><a href="#">Ethics & Compliance</a></li>
+                 <li><a href="#">Community engagement</a></li>
+                 <li><a href="#">Contact Apple</a></li>
+              </ul>
+              <ul>
+               <h3>For Education</h3>
+               <li><a href="#">Apple and Education</a></li>
+               <li><a href="#">Shop for Education</a></li>
+               <li><a href="#">Shop for University</a></li>
+               <li><a href="#">Ethics & Compliance</a></li>
+            </ul>
+           </div>
+        </div>
+        <hr id="horizonral-line">
+        <div id="footer-info">
+           <div id="copyright">
+              Copyright © 2023 Apple Inc.
+           </div>
+           <div id="our-links">
+              <a href="#">Terms of Use</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Cookies System</a>
+           </div>
+        </div>
+     </footer>
+
+
+
+
+     
+<!-- JAVASCRIPT -->
+<script src="js/javascript.js"></script>
+</body>
+</html>
