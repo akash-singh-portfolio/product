@@ -215,7 +215,7 @@ svg.svg-nav {
 	transform: scale(1.9);
 }
 .hero-video {
-	background-image: url(/Website/Product/imgs/hero-section.jpg);
+	background-image: url(../imgs/hero-section.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 860px;
